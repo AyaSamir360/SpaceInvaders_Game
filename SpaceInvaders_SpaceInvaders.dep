@@ -1,0 +1,21 @@
+Dependencies for Project 'SpaceInvaders', Target 'SpaceInvaders': (DO NOT MODIFY !)
+CompilerVersion: 5060750::V5.06 update 6 (build 750)::.\ARMCC
+F (.\startup.s)(0x536F794B)(--cpu Cortex-M4 --pd "__RTX SETA 1" --pd "__EVAL SETA 1" -g --apcs=interwork -IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\Luminary--pd "__UVISION_VERSION SETA 530"--list .\startup.lst --xref -o .\startup.o --depend .\startup.d)
+F (.\random.s)(0x5ED5E26A)(--cpu Cortex-M4 --pd "__RTX SETA 1" --pd "__EVAL SETA 1" -g --apcs=interwork -IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\Luminary--pd "__UVISION_VERSION SETA 530"--list .\random.lst --xref -o .\random.o --depend .\random.d)
+F (.\SpaceInvaders.c)(0x5ED5DD99)(-c --cpu Cortex-M4 -D__RTX -D__EVAL -g -O0 --apcs=interwork --split_sections --signed_chars -I .. -I ..\..\..-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\Luminary-D__UVISION_VERSION="530" -Drvmdk -DPART_LM4F120H5QR-o .\spaceinvaders.o --omf_browse .\spaceinvaders.crf --depend .\spaceinvaders.d)
+I (tm4c123gh6pm.h)(0x536F794B)
+I (Nokia5110.h)(0x5ED5E268)
+I (Random.h)(0x5ED5E26A)
+I (TExaS.h)(0x5ED5E26A)
+I (PlayerInput.h)(0x5ED5E056)
+I (Monsters.h)(0x5ED5DE52)
+F (.\TExaS.c)(0x536F794B)(-c --cpu Cortex-M4 -D__RTX -D__EVAL -g -O0 --apcs=interwork --split_sections --signed_chars -I .. -I ..\..\..-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\Luminary-D__UVISION_VERSION="530" -Drvmdk -DPART_LM4F120H5QR-o .\texas.o --omf_browse .\texas.crf --depend .\texas.d)
+I (TExaS.h)(0x5ED5E26A)
+F (.\VirtualNokia5110.c)(0x536F794B)(-c --cpu Cortex-M4 -D__RTX -D__EVAL -g -O0 --apcs=interwork --split_sections --signed_chars -I .. -I ..\..\..-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\Luminary-D__UVISION_VERSION="530" -Drvmdk -DPART_LM4F120H5QR-o .\virtualnokia5110.o --omf_browse .\virtualnokia5110.crf --depend .\virtualnokia5110.d)
+I (Nokia5110.h)(0x5ED5E268)
+F (.\PlayerInput.c)(0x5ED5E056)(-c --cpu Cortex-M4 -D__RTX -D__EVAL -g -O0 --apcs=interwork --split_sections --signed_chars -I .. -I ..\..\..-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\Luminary-D__UVISION_VERSION="530" -Drvmdk -DPART_LM4F120H5QR-o .\playerinput.o --omf_browse .\playerinput.crf --depend .\playerinput.d)
+I (PlayerInput.h)(0x5ED5E056)
+I (tm4c123gh6pm.h)(0x536F794B)
+F (.\Monsters.c)(0x5ED5DFD3)(-c --cpu Cortex-M4 -D__RTX -D__EVAL -g -O0 --apcs=interwork --split_sections --signed_chars -I .. -I ..\..\..-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\Luminary-D__UVISION_VERSION="530" -Drvmdk -DPART_LM4F120H5QR-o .\monsters.o --omf_browse .\monsters.crf --depend .\monsters.d)
+I (Monsters.h)(0x5ED5DE52)
+I (MonsterImages.c)(0x5ED5DF7A)
